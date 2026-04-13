@@ -35,10 +35,10 @@
       ]
     },
     "atlas": { // Claude Sonnet 4.6
-      "model": "zai-coding-plan/glm-5-turbo",
+      "model": "zai-coding-plan/glm-5.1",
       "variant": "xhigh",
       "fallback_models": [
-        "zai-coding-plan/glm-5.1",
+        "zai-coding-plan/glm-5-turbo",
         "zai-coding-plan/glm-5"
       ]
     },

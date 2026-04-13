@@ -1,6 +1,7 @@
 ## Profiles
 * normal : gpt + 일부 fast
-* fast : gpt 전체 fast + spark
+* fast : gpt 전체 fast
+* spark : gpt 전체 fast + 일부 spark
 * budget : gpt 전체 normal
 * glm5only : glm5.1 + glm-5-turbo
 
@@ -12,5 +13,6 @@
 alias ocb='OPENCODE_CONFIG_DIR=$HOME/.config/opencode/omo-profiles/budget opencode'
 alias ocg='OPENCODE_CONFIG_DIR=$HOME/.config/opencode/omo-profiles/glm5only opencode'
 alias ocf='OPENCODE_CONFIG_DIR=$HOME/.config/opencode/omo-profiles/fast opencode'
+alias ocs='OPENCODE_CONFIG_DIR=$HOME/.config/opencode/omo-profiles/spark opencode'
 alias oc='OPENCODE_CONFIG_DIR=$HOME/.config/opencode/omo-profiles/normal opencode'
 ```
