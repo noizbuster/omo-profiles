@@ -10,14 +10,6 @@
         "zai-coding-plan/glm-5-turbo"
       ]
     },
-    // "sisyphus-junior": { // AUTO
-    //   "model": "zai-coding-plan/glm-5-turbo",
-    //   "variant": "xhigh",
-    //   "fallback_models": [
-    //     "zai-coding-plan/glm-5.1",
-    //     "zai-coding-plan/glm-5"
-    //   ]
-    // },
     "hephaestus": { // GPT 5.4 midium ~ high
       "model": "zai-coding-plan/glm-5.1",
       "variant": "xhigh",
