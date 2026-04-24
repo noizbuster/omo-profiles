@@ -10,14 +10,6 @@
         "zai-coding-plan/glm-5-turbo"
       ]
     },
-    // "sisyphus-junior": { // AUTO
-    //   "model": "zai-coding-plan/glm-5-turbo",
-    //   "variant": "xhigh",
-    //   "fallback_models": [
-    //     "zai-coding-plan/glm-5.1",
-    //     "zai-coding-plan/glm-5"
-    //   ]
-    // },
     "hephaestus": { // GPT 5.4 midium ~ high
       "model": "zai-coding-plan/glm-5.1",
       "variant": "xhigh",
@@ -35,7 +27,8 @@
       ]
     },
     "atlas": { // Claude Sonnet 4.6
-      "model": "zai-coding-plan/glm-5.1",
+      "model": "opencode-go/kimi-k2.6",
+      // "model": "zai-coding-plan/glm-5.1",
       "variant": "xhigh",
       "fallback_models": [
         "zai-coding-plan/glm-5-turbo",
@@ -52,6 +45,8 @@
     },
     "explore": { // MiniMax M2.5
       "model": "zai-coding-plan/glm-5-turbo",
+      // "model": "opencode-go/deepseek-v4-flash",
+      // "model": "opencode-go/kimi-k2.6",
       "variant": "xhigh",
       "fallback_models": [
         "zai-coding-plan/glm-5.1",
@@ -60,6 +55,8 @@
     },
     "librarian": { // MiniMax M2.5
       "model": "zai-coding-plan/glm-5-turbo",
+      // "model": "opencode-go/deepseek-v4-flash",
+      // "model": "opencode-go/kimi-k2.6",
       "variant": "xhigh",
       "fallback_models": [
         "zai-coding-plan/glm-5.1",
@@ -83,7 +80,7 @@
       ]
     },
     "multimodal-looker": { // Multi Modal
-      "model": "zai-coding-plan/glm-5v-turbo",
+      "model": "opencode-go/qwen3.7-plus",
       "variant": "xhigh",
       "fallback_models": [
         "zai-coding-plan/glm-4.5v",
@@ -96,6 +93,8 @@
     // Quick, Small, Cheap
     "quick": {
       "model": "zai-coding-plan/glm-5-turbo",
+      // "model": "opencode-go/deepseek-v4-flash",
+      // "model": "opencode-go/kimi-k2.6",
       "variant": "xhigh",
       "fallback_models": [
         "zai-coding-plan/glm-5.1",
@@ -104,6 +103,8 @@
     },
     "git": {
       "model": "zai-coding-plan/glm-5-turbo",
+      // "model": "opencode-go/deepseek-v4-flash",
+      // "model": "opencode-go/kimi-k2.6",
       "variant": "xhigh",
       "fallback_models": [
         "zai-coding-plan/glm-5.1",
@@ -112,6 +113,8 @@
     },
     "unspecified-low": {
       "model": "zai-coding-plan/glm-5-turbo",
+      // "model": "opencode-go/deepseek-v4-flash",
+      // "model": "opencode-go/kimi-k2.6",
       "variant": "xhigh",
       "fallback_models": [
         "zai-coding-plan/glm-5.1",
@@ -152,7 +155,7 @@
       ]
     },
     "writing": {
-      "model": "zai-coding-plan/glm-5.1",
+      "model": "opencode-go/kimi-k2.6",
       "variant": "xhigh",
       "fallback_models": [
         "zai-coding-plan/glm-5-turbo",
@@ -161,7 +164,7 @@
     },
     // MultiModal
     "visual-engineering": {
-      "model": "zai-coding-plan/glm-5.1",
+      "model": "opencode-go/qwen3.7-plus",
       "variant": "xhigh",
       "fallback_models": [
         "zai-coding-plan/glm-5",
@@ -169,7 +172,7 @@
       ]
     },
     "artistry": { // MultiModal
-      "model": "zai-coding-plan/glm-5.1",
+      "model": "opencode-go/qwen3.7-plus",
       "variant": "xhigh",
       "fallback_models": [
         "zai-coding-plan/glm-5",

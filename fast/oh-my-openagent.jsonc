@@ -3,10 +3,10 @@
   "agents": {
     // Main Agents
     "sisyphus": { // Claude Opus 4.6 Max
-      "model": "openai/gpt-5.4-fast",
+      "model": "openai/gpt-5.5-fast",
       "variant": "xhigh",
       "fallback_models": [
-        "openai/gpt-5.3-codex",
+        "openai/gpt-5.5",
         "openai/gpt-5.3-codex-spark",
         "openai/gpt-5.4-mini"
       ]
@@ -15,45 +15,45 @@
     //   "model": "openai/gpt-5.4-mini-fast",
     //   "variant": "high",
     //   "fallback_models": [
-    //     "openai/gpt-5.4",
+    //     "openai/gpt-5.5",
     //     "openai/gpt-5.3-codex",
     //     "openai/gpt-5.4-mini"
     //   ]
     // },
     "hephaestus": { // GPT 5.4 midium ~ high
-      "model": "openai/gpt-5.4-fast",
+      "model": "openai/gpt-5.5-fast",
       "variant": "high",
       "fallback_models": [
-        "openai/gpt-5.4",
+        "openai/gpt-5.5",
         "openai/gpt-5.3-codex",
         "openai/gpt-5.4-mini-fast"
       ]
     },
     "prometheus": { // Claude Opus 4.6 Max
-      "model": "openai/gpt-5.4-fast",
+      "model": "openai/gpt-5.5-fast",
       "variant": "xhigh",
       "fallback_models": [
-        "openai/gpt-5.3-codex",
+        "openai/gpt-5.5",
         "openai/gpt-5.3-codex-spark",
         "openai/gpt-5.4-mini"
       ]
     },
     "atlas": { // Claude Sonnet 4.6
-      "model": "openai/gpt-5.4-fast",
+      "model": "openai/gpt-5.5-fast",
       "variant": "high",
       "fallback_models": [
         "openai/gpt-5.3-codex-spark",
-        "openai/gpt-5.4",
+        "openai/gpt-5.5",
         "openai/gpt-5.3-codex",
         "openai/gpt-5.4-mini"
       ]
     },
     // Sub Agents
     "oracle": { // GPT 5.4 xHigh
-      "model": "openai/gpt-5.4-fast",
+      "model": "openai/gpt-5.5-fast",
       "variant": "xhigh",
       "fallback_models": [
-        "openai/gpt-5.3-codex",
+        "openai/gpt-5.5",
         "openai/gpt-5.3-codex-spark",
         "openai/gpt-5.4-mini"
       ]
@@ -63,7 +63,7 @@
       "variant": "high",
       "fallback_models": [
         "openai/gpt-5.4-mini-fast",
-        "openai/gpt-5.4",
+        "openai/gpt-5.5",
         "openai/gpt-5.3-codex",
         "openai/gpt-5.4-mini"
       ]
@@ -73,31 +73,31 @@
       "variant": "high",
       "fallback_models": [
         "openai/gpt-5.4-mini-fast",
-        "openai/gpt-5.4",
+        "openai/gpt-5.5",
         "openai/gpt-5.3-codex",
         "openai/gpt-5.4-mini"
       ]
     },
     "metis": { // Claude Opus 4.6
-      "model": "openai/gpt-5.4-fast",
+      "model": "openai/gpt-5.5-fast",
       "variant": "xhigh",
       "fallback_models": [
-        "openai/gpt-5.3-codex",
+        "openai/gpt-5.5",
         "openai/gpt-5.3-codex-spark",
         "openai/gpt-5.4-mini"
       ]
     },
     "momus": { // GPT 5.4
-      "model": "openai/gpt-5.4-fast",
+      "model": "openai/gpt-5.5-fast",
       "variant": "xhigh",
       "fallback_models": [
-        "openai/gpt-5.3-codex",
+        "openai/gpt-5.5",
         "openai/gpt-5.3-codex-spark",
         "openai/gpt-5.4-mini"
       ]
     },
     "multimodal-looker": { // Multi Modal
-      "model": "openai/gpt-5.4-fast",
+      "model": "openai/gpt-5.5-fast",
       "variant": "xhigh",
       "fallback_models": [
         "openai/gpt-5.3-codex",
@@ -111,7 +111,7 @@
       "model": "openai/gpt-5.4-mini-fast",
       "variant": "high",
       "fallback_models": [
-        "openai/gpt-5.4",
+        "openai/gpt-5.5",
         "openai/gpt-5.3-codex",
         "openai/gpt-5.4-mini"
       ],
@@ -121,7 +121,7 @@
       "model": "openai/gpt-5.4-mini-fast",
       "variant": "high",
       "fallback_models": [
-        "openai/gpt-5.4",
+        "openai/gpt-5.5",
         "openai/gpt-5.3-codex",
         "openai/gpt-5.4-mini"
       ]
@@ -130,74 +130,74 @@
       "model": "openai/gpt-5.4-mini-fast",
       "variant": "high",
       "fallback_models": [
-        "openai/gpt-5.4",
+        "openai/gpt-5.5",
         "openai/gpt-5.3-codex",
         "openai/gpt-5.4-mini"
       ]
     },
     // Smart, Heavy, Expensive
     "plan": {
-      "model": "openai/gpt-5.4-fast",
+      "model": "openai/gpt-5.5-fast",
       "variant": "xhigh",
       "fallback_models": [
-        "openai/gpt-5.3-codex",
+        "openai/gpt-5.5",
         "openai/gpt-5.3-codex-spark",
         "openai/gpt-5.4-mini"
       ]
     },
     "deep": {
-      "model": "openai/gpt-5.4-fast",
+      "model": "openai/gpt-5.5-fast",
       "variant": "xhigh",
       "fallback_models": [
-        "openai/gpt-5.3-codex",
+        "openai/gpt-5.5",
         "openai/gpt-5.3-codex-spark",
         "openai/gpt-5.4-mini"
       ],
       "description": "Autonomous implementation, debugging, multi-step execution, and thorough coding work."
     },
     "ultrabrain": {
-      "model": "openai/gpt-5.4-fast",
+      "model": "openai/gpt-5.5-fast",
       "variant": "xhigh",
       "fallback_models": [
-        "openai/gpt-5.3-codex",
+        "openai/gpt-5.5",
         "openai/gpt-5.3-codex-spark",
         "openai/gpt-5.4-mini"
       ],
       "description": "Hard reasoning, architecture, root-cause analysis, difficult tradeoff decisions."
     },
     "unspecified-high": {
-      "model": "openai/gpt-5.4-fast",
+      "model": "openai/gpt-5.5-fast",
       "variant": "xhigh",
       "fallback_models": [
-        "openai/gpt-5.3-codex",
+        "openai/gpt-5.5",
         "openai/gpt-5.3-codex-spark",
         "openai/gpt-5.4-mini"
       ]
     },
     "writing": {
-      "model": "openai/gpt-5.4-fast",
+      "model": "openai/gpt-5.5-fast",
       "variant": "xhigh",
       "fallback_models": [
-        "openai/gpt-5.3-codex",
+        "openai/gpt-5.5",
         "openai/gpt-5.3-codex-spark",
         "openai/gpt-5.4-mini"
       ]
     },
     // MultiModal
     "visual-engineering": {
-      "model": "openai/gpt-5.4-fast",
+      "model": "openai/gpt-5.5-fast",
       "variant": "xhigh",
       "fallback_models": [
-        "openai/gpt-5.3-codex",
+        "openai/gpt-5.5",
         "openai/gpt-5.3-codex-spark",
         "openai/gpt-5.4-mini"
       ]
     },
     "artistry": {
-      "model": "openai/gpt-5.4-fast",
+      "model": "openai/gpt-5.5-fast",
       "variant": "xhigh",
       "fallback_models": [
-        "openai/gpt-5.3-codex",
+        "openai/gpt-5.5",
         "openai/gpt-5.3-codex-spark",
         "openai/gpt-5.4-mini"
       ]
