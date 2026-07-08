@@ -3,180 +3,150 @@
   "agents": {
     // Main Agents
     "sisyphus": { // Claude Opus 4.6 Max
-      "model": "zai-coding-plan/glm-5.1",
-      "variant": "xhigh",
+      "model": "zai-coding-plan/glm-5.2",
+      "variant": "max",
       "fallback_models": [
-        "zai-coding-plan/glm-5",
-        "zai-coding-plan/glm-5-turbo"
+        "zai-coding-plan/glm-5.1"
       ]
     },
     "hephaestus": { // GPT 5.4 midium ~ high
-      "model": "zai-coding-plan/glm-5.1",
-      "variant": "xhigh",
+      "model": "zai-coding-plan/glm-5.2",
+      "variant": "max",
       "fallback_models": [
-        "zai-coding-plan/glm-5",
-        "zai-coding-plan/glm-5-turbo"
+        "zai-coding-plan/glm-5.1"
       ]
     },
     "prometheus": { // Claude Opus 4.6 Max
-      "model": "zai-coding-plan/glm-5.1",
-      "variant": "xhigh",
+      "model": "zai-coding-plan/glm-5.2",
+      "variant": "max",
       "fallback_models": [
-        "zai-coding-plan/glm-5",
-        "zai-coding-plan/glm-5-turbo"
+        "zai-coding-plan/glm-5.1"
       ]
     },
     "atlas": { // Claude Sonnet 4.6
-      "model": "opencode-go/kimi-k2.6",
-      // "model": "zai-coding-plan/glm-5.1",
-      "variant": "xhigh",
+      "model": "zai-coding-plan/glm-5.2",
+      "variant": "max",
       "fallback_models": [
-        "zai-coding-plan/glm-5-turbo",
-        "zai-coding-plan/glm-5"
+        "zai-coding-plan/glm-5.1"
       ]
     },
-    "oracle": { // GPT 5.4 xHigh
-      "model": "zai-coding-plan/glm-5.1",
-      "variant": "xhigh",
+    "oracle": { // GPT 5.4 max
+      "model": "zai-coding-plan/glm-5.2",
+      "variant": "max",
       "fallback_models": [
-        "zai-coding-plan/glm-5",
-        "zai-coding-plan/glm-5-turbo"
+        "zai-coding-plan/glm-5.1"
       ]
     },
     "explore": { // MiniMax M2.5
-      "model": "zai-coding-plan/glm-5-turbo",
-      // "model": "opencode-go/deepseek-v4-flash",
-      // "model": "opencode-go/kimi-k2.6",
-      "variant": "xhigh",
+      "model": "zai-coding-plan/glm-5.2",
+      "variant": "high",
       "fallback_models": [
-        "zai-coding-plan/glm-5.1",
-        "zai-coding-plan/glm-5"
+        "zai-coding-plan/glm-5.1"
       ]
     },
     "librarian": { // MiniMax M2.5
-      "model": "zai-coding-plan/glm-5-turbo",
-      // "model": "opencode-go/deepseek-v4-flash",
-      // "model": "opencode-go/kimi-k2.6",
-      "variant": "xhigh",
+      "model": "zai-coding-plan/glm-5.2",
+      "variant": "high",
       "fallback_models": [
-        "zai-coding-plan/glm-5.1",
-        "zai-coding-plan/glm-5"
+        "zai-coding-plan/glm-5.1"
       ]
     },
     "metis": { // Claude Opus 4.6
-      "model": "zai-coding-plan/glm-5.1",
-      "variant": "xhigh",
+      "model": "zai-coding-plan/glm-5.2",
+      "variant": "max",
       "fallback_models": [
-        "zai-coding-plan/glm-5",
-        "zai-coding-plan/glm-5-turbo"
+        "zai-coding-plan/glm-5.1"
       ]
     },
     "momus": { // GPT 5.4
-      "model": "zai-coding-plan/glm-5.1",
-      "variant": "xhigh",
+      "model": "zai-coding-plan/glm-5.2",
+      "variant": "max",
       "fallback_models": [
-        "zai-coding-plan/glm-5",
-        "zai-coding-plan/glm-5-turbo"
+        "zai-coding-plan/glm-5.1"
       ]
     },
     "multimodal-looker": { // Multi Modal
-      "model": "opencode-go/qwen3.7-plus",
-      "variant": "xhigh",
+      // "model": "gpt-5.5",
+      "model": "opencode-go/kimi-k2.7-code",
+      "variant": "high",
       "fallback_models": [
-        "zai-coding-plan/glm-4.5v",
-        "openai/gpt-5.4-mini",
-        "openai/gpt-5.4"
+        "openai/gpt-5.5",
+        // "opencode-go/kimi-k2.7-code",
+        "opencode-go/qwen-3.6-plus"
       ]
     }
   },
   "categories": {
     // Quick, Small, Cheap
     "quick": {
-      "model": "zai-coding-plan/glm-5-turbo",
-      // "model": "opencode-go/deepseek-v4-flash",
-      // "model": "opencode-go/kimi-k2.6",
-      "variant": "xhigh",
+      "model": "zai-coding-plan/glm-5.2",
+      "variant": "high",
       "fallback_models": [
-        "zai-coding-plan/glm-5.1",
-        "zai-coding-plan/glm-5"
+        "zai-coding-plan/glm-5.1"
       ]
     },
     "git": {
-      "model": "zai-coding-plan/glm-5-turbo",
-      // "model": "opencode-go/deepseek-v4-flash",
-      // "model": "opencode-go/kimi-k2.6",
-      "variant": "xhigh",
+      "model": "zai-coding-plan/glm-5.2",
+      "variant": "high",
       "fallback_models": [
-        "zai-coding-plan/glm-5.1",
-        "zai-coding-plan/glm-5"
+        "zai-coding-plan/glm-5.1"
       ]
     },
     "unspecified-low": {
-      "model": "zai-coding-plan/glm-5-turbo",
-      // "model": "opencode-go/deepseek-v4-flash",
-      // "model": "opencode-go/kimi-k2.6",
-      "variant": "xhigh",
+      "model": "zai-coding-plan/glm-5.2",
+      "variant": "high",
       "fallback_models": [
-        "zai-coding-plan/glm-5.1",
-        "zai-coding-plan/glm-5"
+        "zai-coding-plan/glm-5.1"
       ]
     },
     // Smart, Heavy, Expensive
     "plan": {
-      "model": "zai-coding-plan/glm-5.1",
-      "variant": "xhigh",
+      "model": "zai-coding-plan/glm-5.2",
+      "variant": "max",
       "fallback_models": [
-        "zai-coding-plan/glm-5",
-        "zai-coding-plan/glm-5-turbo"
+        "zai-coding-plan/glm-5.1"
       ]
     },
     "deep": {
-      "model": "zai-coding-plan/glm-5.1",
-      "variant": "xhigh",
+      "model": "zai-coding-plan/glm-5.2",
+      "variant": "max",
       "fallback_models": [
-        "zai-coding-plan/glm-5",
-        "zai-coding-plan/glm-5-turbo"
+        "zai-coding-plan/glm-5.1"
       ]
     },
     "ultrabrain": {
-      "model": "zai-coding-plan/glm-5.1",
-      "variant": "xhigh",
+      "model": "zai-coding-plan/glm-5.2",
+      "variant": "max",
       "fallback_models": [
-        "zai-coding-plan/glm-5",
-        "zai-coding-plan/glm-5-turbo"
+        "zai-coding-plan/glm-5.1"
       ]
     },
     "unspecified-high": {
-      "model": "zai-coding-plan/glm-5.1",
-      "variant": "xhigh",
+      "model": "zai-coding-plan/glm-5.2",
+      "variant": "max",
       "fallback_models": [
-        "zai-coding-plan/glm-5",
-        "zai-coding-plan/glm-5-turbo"
+        "zai-coding-plan/glm-5.1"
       ]
     },
     "writing": {
-      "model": "opencode-go/kimi-k2.6",
-      "variant": "xhigh",
+      "model": "zai-coding-plan/glm-5.2",
+      "variant": "max",
       "fallback_models": [
-        "zai-coding-plan/glm-5-turbo",
-        "zai-coding-plan/glm-5"
+        "zai-coding-plan/glm-5.1"
       ]
     },
-    // MultiModal
     "visual-engineering": {
-      "model": "opencode-go/qwen3.7-plus",
-      "variant": "xhigh",
+      "model": "zai-coding-plan/glm-5.2",
+      "variant": "max",
       "fallback_models": [
-        "zai-coding-plan/glm-5",
-        "zai-coding-plan/glm-5-turbo"
+        "zai-coding-plan/glm-5.1"
       ]
     },
-    "artistry": { // MultiModal
-      "model": "opencode-go/qwen3.7-plus",
-      "variant": "xhigh",
+    "artistry": {
+      "model": "zai-coding-plan/glm-5.2",
+      "variant": "max",
       "fallback_models": [
-        "zai-coding-plan/glm-5",
-        "zai-coding-plan/glm-5-turbo"
+        "zai-coding-plan/glm-5.1"
       ]
     }
   },
@@ -187,13 +157,32 @@
   "tmux": {
     "enabled": false
   },
+  "team_mode":{
+    "enabled": true
+  },
   "provider": {
     "zai-coding-plan": {
       "models": {
-        "glm-5.1": { "limit": { "context": 100000 } },
-        "glm-5": { "limit": { "context": 100000 } },
-        "glm-5-turbo": { "limit": { "context": 100000 } },
-        "glm-5v-turbo": { "limit": { "context": 100000 } }
+        "glm-5.1": {
+          "limit": {
+            "context": 100000
+          }
+        },
+        "glm-5": {
+          "limit": {
+            "context": 100000
+          }
+        },
+        "glm-5-turbo": {
+          "limit": {
+            "context": 100000
+          }
+        },
+        "glm-5v-turbo": {
+          "limit": {
+            "context": 100000
+          }
+        }
       }
     }
   },
