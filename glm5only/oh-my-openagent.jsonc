@@ -66,8 +66,9 @@
       ]
     },
     "multimodal-looker": { // Multi Modal
-      // "model": "gpt-5.5",
-      "model": "opencode-go/kimi-k2.7-code",
+      // "model": "openai/gpt-5.5",
+      // "model": "opencode-go/kimi-k2.7-code",
+      "model": "xai/grok-4.5",
       "variant": "high",
       "fallback_models": [
         "openai/gpt-5.5",
