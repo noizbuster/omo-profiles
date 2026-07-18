@@ -13,7 +13,7 @@
     },
     "hephaestus": {
       // 2
-      "model": "xai/grok-4.5",
+      "model": "openai/gpt-5.6-terra",
       "variant": "xhigh",
       "fallback_models": [
         { "model": "openai/openai/gpt-5.6-terra", "variant": "high" },
@@ -42,7 +42,7 @@
     "oracle": {
       // 3
       "model": "openai/gpt-5.6-sol",
-      "variant": "xhigh",
+      "variant": "high",
       "fallback_models": [
         { "model": "openai/openai/gpt-5.5", "variant": "xhigh" },
         { "model": "xai/grok-4.5", "variant": "high" },
@@ -51,7 +51,8 @@
     },
     "explore": {
       // 1
-      "model": "xai/grok-4.5",
+      // "model": "xai/grok-4.5",
+      "model": "zai-coding-plan/glm-5.2",
       "variant": "high",
       "fallback_models": [
         { "model": "zai-coding-plan/glm-5.2", "variant": "max" },
@@ -60,7 +61,7 @@
     },
     "librarian": {
       // 1
-      "model": "xai/grok-4.5",
+      "model": "zai-coding-plan/glm-5.2",
       "variant": "high",
       "fallback_models": [
         { "model": "zai-coding-plan/glm-5.2", "variant": "max" },
@@ -99,7 +100,8 @@
   "categories": {
     "quick": {
       // 1
-      "model": "xai/grok-4.5",
+      // "model": "xai/grok-4.5",
+      "model": "zai-coding-plan/glm-5.2",
       "variant": "high",
       "fallback_models": [
         { "model": "zai-coding-plan/glm-5.2", "variant": "max" },
@@ -108,7 +110,8 @@
     },
     "git": {
       // 1
-      "model": "xai/grok-4.5",
+      // "model": "xai/grok-4.5",
+      "model": "zai-coding-plan/glm-5.2",
       "variant": "high",
       "fallback_models": [
         { "model": "zai-coding-plan/glm-5.2", "variant": "max" },
@@ -117,7 +120,8 @@
     },
     "unspecified-low": {
       // 1
-      "model": "xai/grok-4.5",
+      // "model": "xai/grok-4.5",
+      "model": "zai-coding-plan/glm-5.2",
       "variant": "high",
       "fallback_models": [
         { "model": "zai-coding-plan/glm-5.2", "variant": "max" },
@@ -137,7 +141,7 @@
     "deep": {
       // 3
       "model": "openai/gpt-5.6-sol",
-      "variant": "xhigh",
+      "variant": "high",
       "fallback_models": [
         { "model": "openai/openai/gpt-5.5", "variant": "xhigh" },
         { "model": "xai/grok-4.5", "variant": "high" },
@@ -155,8 +159,8 @@
       ]
     },
     "unspecified-high": {
-      // 3
-      "model": "openai/gpt-5.6-sol",
+      // 2
+      "model": "xai/grok-4.5",
       "variant": "high",
       "fallback_models": [
         { "model": "openai/openai/gpt-5.5", "variant": "xhigh" },
@@ -167,7 +171,7 @@
     "writing": {
       // 2
       "model": "xai/grok-4.5",
-      "variant": "xhigh",
+      "variant": "high",
       "fallback_models": [
         { "model": "openai/openai/gpt-5.6-terra", "variant": "high" },
         { "model": "zai-coding-plan/glm-5.2", "variant": "max" }
@@ -176,7 +180,7 @@
     "visual-engineering": {
       // 2
       "model": "xai/grok-4.5",
-      "variant": "xhigh",
+      "variant": "high",
       "fallback_models": [
         { "model": "openai/openai/gpt-5.6-terra", "variant": "high" },
         { "model": "zai-coding-plan/glm-5.2", "variant": "max" }
@@ -185,7 +189,7 @@
     "artistry": {
       // 2
       "model": "xai/grok-4.5",
-      "variant": "xhigh",
+      "variant": "high",
       "fallback_models": [
         { "model": "openai/openai/gpt-5.6-terra", "variant": "high" },
         { "model": "zai-coding-plan/glm-5.2", "variant": "max" }
